@@ -8,7 +8,7 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "fidelite")
 @Data
-class Fidelite {
+public class Fidelite {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private int pointsAcquis;
